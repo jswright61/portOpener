@@ -26,11 +26,11 @@ portOpener is installed.
 
         Assumes that apache is the user running the apache daemon or service
 
-> Please note, this gives the apache application permission to run portOpenerCommands.php as root. Because 
-apache cannot write to this file and alter it, the risk is minimal.
-> You can further minimize your risk by moving the two exectutable files, portOpenerCron.php and 
-portOpenerCommands.php to a directory that is not below your webroot. You will have to adjust 
-the paths for the executables and the require statements accordingly.
+    > Please note, this gives the apache application permission to run portOpenerCommands.php as root. Because 
+    apache cannot write to this file and alter it, the risk is minimal.
+    > You can further minimize your risk by moving the two exectutable files, portOpenerCron.php and 
+    portOpenerCommands.php to a directory that is not below your webroot. You will have to adjust 
+    the paths for the executables and the require statements accordingly.
 
 7. Add a cron job to run portOpenerCron.php periodically. This will look for temporary rules that are expired and delete them. 
 You can run this as frequently or infrequently as you wish. I decided that every two minutes was good for my needs.
