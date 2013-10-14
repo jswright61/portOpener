@@ -26,9 +26,9 @@ portOpener is installed.
 
         Assumes that apache is the user running the apache daemon or service
 
-    - Please note, this gives the apache application permission to run portOpenerCommands.php as root. Because 
+> Please note, this gives the apache application permission to run portOpenerCommands.php as root. Because 
 apache cannot write to this file and alter it, the risk is minimal.
-    - You can further minimize your risk by moving the two exectutable files, portOpenerCron.php and 
+> You can further minimize your risk by moving the two exectutable files, portOpenerCron.php and 
 portOpenerCommands.php to a directory that is not below your webroot. You will have to adjust 
 the paths for the executables and the require statements accordingly.
 
