@@ -43,12 +43,12 @@ You can run this as frequently or infrequently as you wish. I decided that every
 
         $iptables --new TEMP_OPENINGS
 9. Create a rule on your INPUT chain to jump to the TEMP_OPENINGS chain, insert this as your first rule.
+
+        $iptables --insert INPUT --jump TEMP_OPENINGS
     - I assume your default action on your INPUT chain is to ACCEPT, and that your last rule is to DROP ALL
     - This is a pretty standard and sensible setup.
     - I use a separate chain and jump to it first so that I don't need to worry about inserting temp
     rules, I can simply add them.
-
-        $iptables --insert INPUT --jump TEMP_OPENINGS
 
 10. Save your iptables rules to the file where they were previously saved so that the new chain and jump rule are restored 
 on reboots. The instructions to do this vary with Linux distributions
