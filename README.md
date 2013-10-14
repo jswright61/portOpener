@@ -29,4 +29,4 @@ date representation is there for convenience, as is the requesting ip address.
 
 
 ## Installation
-Please see INSTALLATION.md for detailed installation instructions.
+Please see [INSTALLATION.md](INSTALLATION.md) for detailed installation instructions.

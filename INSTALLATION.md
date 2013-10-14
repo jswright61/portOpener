@@ -54,5 +54,5 @@ You can run this as frequently or infrequently as you wish. I decided that every
 10. Save your iptables rules to the file where they were previously saved so that the new chain and jump rule are restored 
 on reboots. The instructions to do this vary with Linux distributions
 
-    - Steps 9 and 10 are optional, there are checks in the programs to create the necessary chain and jump to that chain, but by
+> Steps 9 and 10 are optional, there are checks in the programs to create the necessary chain and jump to that chain, but by
 creating and saving them, you have complete control over where the jump appears in your INPUT chain.
