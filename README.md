@@ -30,3 +30,20 @@ date representation is there for convenience, as is the requesting ip address.
 
 ## Installation
 Please see [INSTALLATION.md](INSTALLATION.md) for detailed installation instructions.
+
+## Need Help?
+- Check the Wiki first
+- Email me, [Scott Wright](mailto:scott@wrightzone.com) I'll do what I can to help. Starting your subject with portOpener 
+will increase the chance of it getting through my spam filters.
+
+## Do you want to help?
+- All help is welcome!
+- Bug Reports / Feature Requests / Documentation Tweaks.
+- Contribute: have you made a modification that moves the project forward? Do you have specific copy to enhance the 
+documentation or instructions? Please submit a pull request.
+- Specific areas for help
+    - Implementation with other distributions. My experience is primarily with Ubuntu / Debian. If code and or instructions 
+    need to be modified to work with other distributions.
+
+## Contributors
+- [Scott Wright](https://github.com/jswright61/)
