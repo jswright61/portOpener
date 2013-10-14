@@ -48,8 +48,7 @@ You can run this as frequently or infrequently as you wish. I decided that every
     - I use a separate chain and jump to it first so that I don't need to worry about inserting temp
     rules, I can simply add them.
 
-
-        iptables --insert INPUT --jump TEMP_OPENINGS
+        $iptables --insert INPUT --jump TEMP_OPENINGS
 
 10. Save your iptables rules to the file where they were previously saved so that the new chain and jump rule are restored 
 on reboots. The instructions to do this vary with Linux distributions
